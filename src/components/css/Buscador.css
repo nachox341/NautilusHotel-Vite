@@ -1,0 +1,77 @@
+.contenedor-buscador{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador{
+    width: 50%;
+    height: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid #cc3917;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-buscador{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fecha-desde, .fecha-hasta, .tipo-habitacion,.personas{
+    width: 23%;
+    height: 100%;
+    padding-left: 15px;
+    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fecha-desde:hover, .fecha-hasta:hover, .tipo-habitacion:hover,.personas:hover{
+    background-color: #e3e3e3;
+}
+
+input, select{
+    width: 80%;
+    background-color: transparent;
+    color: rgb(92, 91, 91);
+    font-size: 13px;
+    border: none;
+}
+
+.boton-buscador{
+    width: 50px;
+    height: 50px;
+    background-color: #cc3917;
+    margin-right: 15px;
+    border-radius:50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.boton-buscador img{
+    width: 20px;
+    height: 20px;
+}
+
+.boton-buscador button{
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}

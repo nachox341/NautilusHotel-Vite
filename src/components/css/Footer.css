@@ -1,0 +1,13 @@
+footer{
+    width: 100%;
+    background-color: #e3e3e3;
+    padding: 4em 0;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horario .direccion{
+    width: 19em;
+    background-color: #cc3917;
+}

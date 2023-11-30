@@ -1,0 +1,84 @@
+.sesion{
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.contenedor-carrusel{
+    width: 60%;
+    margin: 0 0 0 8em;
+
+    overflow: hidden;
+}
+
+.carrusel{
+    width: 400%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carrusel img{
+    width: calc(100% / 4);
+    min-height: 10vh;
+}
+
+.circulitos{
+    width: inherit;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+    position: absolute;
+    transform: translateY(-4em);
+}
+
+.circulitos li{
+    list-style: none;
+}
+
+.circulo{
+    width: 1.8em;
+    height: 1.8em;
+
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    cursor: pointer;
+}
+
+.activo{
+    background: linear-gradient(145deg, #cacaca, #cc3917);
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.contenedor-texto{
+    width: 28%;
+    background-color: #e3e3e3;
+    margin: 0 8em 0 0;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-texto p{
+    margin: 2em;
+    font-size: 25px;
+    text-align: justify;
+}

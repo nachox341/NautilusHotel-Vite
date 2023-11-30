@@ -1,0 +1,26 @@
+.habitacion {
+    padding: 20px;
+    text-align: center;
+    background-color: #e3e3e3;
+    box-shadow:  27px 27px 45px #afafaf, -27px -27px 45px #ffffff;
+}
+
+.contenedor-imagen {
+    width: 100%;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.descripcion {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.reserva {
+    text-decoration: none;
+    color: #cc3917;
+    font-weight: bold;
+}

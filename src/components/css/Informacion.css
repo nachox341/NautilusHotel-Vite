@@ -1,0 +1,26 @@
+.contenedor-informacion{
+    width: 100%;
+    background-color: #e3e3e3;
+    padding: 8em 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+}
+
+.texto{
+    width: 546px;
+    margin-left: 8em;
+    font-size: 20px;
+}
+
+.texto p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen{
+    width: 546px;
+    margin-right: 8em;
+}

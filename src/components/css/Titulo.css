@@ -1,0 +1,13 @@
+.contenedor-titulo{
+    width: 100%;
+    padding: 0.5em 0;
+    background-color: #e3e3e3;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-titulo h1 {
+    font-size: 35px;
+    text-decoration: line-through;
+}

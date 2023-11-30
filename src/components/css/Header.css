@@ -1,0 +1,89 @@
+.barra{
+    padding: 1.5em 0;
+    color: rgba(240,240,232,255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nada{
+    width: 33%;
+}
+
+.logo{
+    width: 33%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 175px;
+    min-width: 175px;
+}
+
+.boton-login{
+    width: 33%;
+
+    display: flex;
+    justify-content: end;
+}
+
+.boton-login button{
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+.boton-login button:hover{
+    background-color: #cc3917;
+    color: rgba(240,240,232,255);
+}
+
+hr{
+    width: 95%;
+    height: 1px;
+    background-color: #8f859e;
+    border: none;
+}
+
+.contenedor-navegador{
+    padding: 1em 0;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    transition: 0.1s;
+}
+
+.contenedor-navegador.abajo{
+    background-color: white;
+    box-shadow:  0 0 28px 0 #a1a1a1;
+}
+
+.navegador{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.navegador a{
+    color: #151515;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navegador a:hover{
+    color: #cc3917;
+}
