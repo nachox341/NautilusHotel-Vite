@@ -2,6 +2,13 @@ import './css/Habitacion.css'
 import  room1 from '../assets/image/room-1.jpg'
 
 export function Habitacion () {
+    const routes = (
+        {
+            path: '/Habitacion',
+            name: 'Reserva ahora',
+        }
+    )
+
     return (
         <div className='habitacion'>
             <div className="contenedor-imagen">
@@ -12,7 +19,7 @@ export function Habitacion () {
                     <h5>Habitación Deluxe</h5>
                 </div>
                 <div>
-                    <a className="reserva" href="#">Reservar Ahora</a>
+                    <a className="reserva" href={routes.path}>{routes.name}</a>
                 </div>
             </div>
         </div>

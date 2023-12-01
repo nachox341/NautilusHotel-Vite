@@ -1,0 +1,24 @@
+.contenedor-a {
+    width: 100%;
+    margin: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+.contenedor-a img{
+    width: calc(60% - 4em);
+}
+
+.detalles{
+    width: calc(40% - 4em);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.detalles button {
+    width: 40%;
+}

@@ -24,8 +24,8 @@ export function InicioSesion () {
                 <h1>¡Bienvenidos!</h1>
                 <form id="form" className="form"  action="#" method="POST">
                     <label>
-                        <input name="usuario" placeholder="" type="text" className="input" />
-                        <span>Usuario</span>
+                        <input name="correo" placeholder="" type="email" className="input" />
+                        <span>Correo</span>
                     </label>
                     <label>
                         <input name="contraseña" placeholder="" type="password" className="input" />

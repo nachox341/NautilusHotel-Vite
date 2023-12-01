@@ -6,6 +6,7 @@ import { About } from '../pages/About.jsx'
 import { Contact } from '../pages/Contact.jsx'
 import { Login } from '../pages/Login.jsx'
 import { Signup } from '../pages/Signup.jsx'
+import { Rooms } from '../pages/Rooms.jsx'
 
 export const renderRoutes = () => {
     return (
@@ -44,5 +45,10 @@ export const routes = [
     {
         path: '/Signup',
         element: <Signup />,
+    },
+
+    {
+        path: '/Habitacion',
+        element: <Rooms />,
     }
 ];

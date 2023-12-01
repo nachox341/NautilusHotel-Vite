@@ -25,6 +25,10 @@ export function Registro () {
                         <span>Rut</span>
                     </label>
                     <label>
+                        <input name="correo" placeholder="" type="email" className="input" required />
+                        <span>Correo</span>
+                    </label>
+                    <label>
                         <input name="contraseña" placeholder="" type="password" className="input" required />
                         <span>Contraseña</span>
                     </label>
