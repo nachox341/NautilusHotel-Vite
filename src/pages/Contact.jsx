@@ -1,10 +1,11 @@
 import Contactanos from '../components/Contactanos'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Titulo from '../components/Titulo'
 
 export function Contact () {
     return (
         <>
+            <Titulo titulo={ "Contactanos" } />
             <Contactanos />
             <Footer />
         </>

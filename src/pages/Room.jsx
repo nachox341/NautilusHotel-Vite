@@ -6,7 +6,7 @@ import Titulo from '../components/Titulo'
 export function Room () {
     return (
         <>
-            <Titulo />
+            <Titulo titulo={ "Habitaciones" } />
             <Habitaciones />
             <Footer />
         </>

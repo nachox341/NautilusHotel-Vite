@@ -1,9 +1,11 @@
 import './css/Titulo.css'
 
-export function Titulo () {
+export function Titulo (props) {
+    const { titulo } = props
+
     return (
         <div className="contenedor-titulo">
-            <h1>HABITACIONES</h1>
+            <h1>{ props.titulo }</h1>
         </div>
     )
 }
