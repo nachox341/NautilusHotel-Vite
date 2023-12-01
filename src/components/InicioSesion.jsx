@@ -4,6 +4,13 @@ import  logo2 from '../assets/image/logo2.png'
 import  logo3 from '../assets/image/logo3.png'
 
 export function InicioSesion () {
+    const routes = (
+        {
+            path: '/Signup',
+            name: 'Registrate',
+        }
+    )
+
     return (
         <div className='contenedor-inicio'>
             <div className="login rojo-inicio">
@@ -11,7 +18,7 @@ export function InicioSesion () {
                     <img id="logo1" src={ logo3 } alt="logo" />
                     <img id="logo2" src={ logo2 } alt="logo" />
                 </div>
-                <a href="signup.html">Registrate</a>
+                <a href={routes.path}>{routes.name}</a>
             </div>
             <div className="login gris-inicio">
                 <h1>¡Bienvenidos!</h1>

@@ -1,7 +1,29 @@
 import './css/Header.css'
 import  logo1 from '../assets/image/logo1.png'
+import BotonLogin from './BotonLogin'
 
 export function Header () {
+    const routes = [
+        {
+            path: '/',
+            name: 'Inicio',
+        },
+
+        {
+            path: '/Room',
+            name: 'Habitaciones',
+        },
+
+        {
+            path: '/About',
+            name: 'Nosotros',
+        },
+        
+        {
+            path: '/Contact',
+            name: 'Contacto',
+        },
+    ]
     return (
         <header>
             <div className="barra">
@@ -10,17 +32,20 @@ export function Header () {
                     <img src={ logo1 } />
                 </div>
                 <div className="boton-login">
-                    <a href="login.html"><button>Iniciar Sesion</button></a>
+                    <BotonLogin />
                 </div>
             </div>
             <hr />
             <div className="contenedor-navegador">
-                <nav className="navegador sticky">
-                    <a href="home.html">Inicio</a>
-                    <a href="room.html">Habitaciones</a>
-                    <a href="about.html">Nosotros</a>
-                    <a href="contact.html">Contacto</a>
-                </nav>
+                <ul className='navegador sticky'>
+                    {
+                        routes.map((route) => (
+                            <li key={route.name}>
+                                <a href={route.path}>{route.name}</a>
+                            </li>
+                        ))
+                    }
+                </ul>
             </div>
             <hr />
         </header>

@@ -5,7 +5,6 @@ import Registro from '../components/Registro'
 export function Signup () {
     return (
         <>
-            <Header />
             <Registro />
             <Footer />
         </>

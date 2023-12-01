@@ -7,7 +7,6 @@ import { Titulo } from '../components/Titulo'
 export function About () {
     return (
         <>
-            <Header />
             <Titulo />
             <Informacion />
             <Team />

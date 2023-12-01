@@ -1,19 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Home from './pages/Home'
-import Room from './pages/Room'
-import Contact from './pages/Contact'
-import About from './pages/About'
-import InicioSesion from './components/InicioSesion'
-import Registro from './components/Registro'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { renderRoutes } from './routes/Index'
+import Header from './components/Header.jsx'
 
 function App() {
   return (
     <body>
-      <Home />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          { renderRoutes() }
+        </Routes>
+      </BrowserRouter>
     </body>
   )
 }

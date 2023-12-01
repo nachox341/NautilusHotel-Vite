@@ -7,7 +7,6 @@ import Informacion from '../components/Informacion'
 export function Home () {
     return (
         <>
-            <Header />
             <Buscador />
             <Carrusel />
             <Informacion />

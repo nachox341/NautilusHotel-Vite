@@ -5,7 +5,6 @@ import InicioSesion from '../components/InicioSesion'
 export function Login () {
     return (
         <>
-            <Header />
             <InicioSesion />
             <Footer />
         </>

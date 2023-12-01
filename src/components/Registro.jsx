@@ -4,6 +4,13 @@ import  logo2 from '../assets/image/logo2.png'
 import  logo3 from '../assets/image/logo3.png'
 
 export function Registro () {
+    const routes = (
+        {
+            path: '/Login',
+            name: 'Inicio sesion',
+        }
+    )
+    
     return (
         <div className='contenedor-inicio'>
             <div className="signup gris-registro">
@@ -29,7 +36,7 @@ export function Registro () {
                     <img id="logo1" src={ logo3 } alt="logo" />
                     <img id="logo2" src={ logo2 } alt="logo" />
                 </div>
-                <a href="login.html">Inicia sesión</a>
+                <a href={routes.path}>{routes.name}</a>
             </div>
         </div>
     )
